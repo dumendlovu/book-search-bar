@@ -1,0 +1,64 @@
+This a project to create a Search Bar for Book Objects in HTML, CSS and JavaScript.
+
+Books as test data:
+
+{Harry Potter and the Cursed Child, Parts 1 & 2,
+J.K. Rowling,
+Genre: Fantasy,
+Type: Play}
+
+{When Breath Becomes Air,
+Paul Kalanithi,
+Genre: Auto-Biography,
+Type: Memoir}
+
+{The Whistler,
+John Grisham,
+Genre: Crime-Drama,
+Type: Novel}
+
+{The Last Mile,
+David Baldacci,
+Genre: Crime-Drama,
+Type: Novel
+}
+
+{Killing the Rising Sun: How America Vanquished World War II Japan,
+Bill O'Reilly,
+Genre: History,
+Type: Critique}
+
+{Hillbilly Elegy: A Memoir of a Family and Culture in Crisis,
+J.D. Vance,
+Genre: Non-Fiction,
+Type: Critique}
+
+{Truly Madly Guilty,
+Liane Moriarty,
+Genre: Fiction,
+Type: Novel}
+
+{Night School: A Jack Reacher Novel
+Lee Child,
+Genre: Fiction,
+Type: Novel}
+
+{The Black Widow,
+Daniel Silva,
+Genre: Thriller,
+Type: Novel}
+
+{Diary of a Wimpy Kid: Double Down,
+Jeff Kinney,
+Genre: Children's Fiction,
+Type: Novel}
+
+{The 15th Affair: The New Women's Murder Club Novel,
+James Patterson,
+Genre: Crime-Drama,
+Type: Novel}
+
+{Before the Fall,
+Noah Hawley,
+Genre: Fiction
+Type: Novel}
