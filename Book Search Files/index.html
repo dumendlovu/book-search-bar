@@ -15,106 +15,122 @@
       <a class="active" href="#home">Home</a>
       <a href="#about">About</a>
       <a href="#contact">Contact</a>
-      <form>
-        <input type="text" placeholder="Search..">
-        <button type="submit"><i class="fa fa-search"></i></button>
-      </form>
     </div>
   </header>
   <section id="main">
-    <div class="container">
-      <div class="row display-flex">
+    <div class="container-fuild">
+      <div class="row">
         <div class="col-md-12">
-          <h1>Books</h1>
-          <article class="col-md-3">
-            <img src="img/bc-15th_affair.jpg"/>
-            <p class="text-center">The 15th Affair: The New Women's Murder Club Novel
-              <br>
-              <em>James Patterson</em>
-            </p>
-          </article>
-          <article class="col-md-3">
-            <img src="img/bc-before_the_fall.jpg"/>
-            <p class="text-center">Before the Fall
-              <br>
-              <em>Noah Hawley</em>
-            </p>
-          </article>
-          <article class="col-md-3">
-            <img src="img/bc-diary_of_a_wimpy_kid.jpg"/>
-            <p class="text-center">Diary of a Wimpy Kid: Double Down
-              <br>
-              <em>Jeff Kinney</em>
-            </p>
-          </article>
-          <article class="col-md-3">
-            <img src="img/bc-harry_potter.jpg"/>
-            <p class="text-center">Harry Potter and the Cursed Child, Parts 1 & 2
-              <br>
-              <em>J.K. Rowling</em>
-            </p>
-          </article>
-          <article class="col-md-3">
-            <img src="img/bc-hillbilly_elegy.jpg"/>
-            <p class="text-center">Hillbilly Elegy: A Memoir of a Family and Culture in Crisis
-              <br>
-              <em>J.D. Vance</em>
-            </p>
-          </article>
-          <article class="col-md-3">
-            <img src="img/bc-killing_the_rising_sun.jpg"/>
-            <p class="text-center">Killing the Rising Sun: How America Vanquished World War II Japan
-              <br>
-              <em>Bill O'Reilly</em>
-            </p>
-          </article>
-          <article class="col-md-3">
-            <img src="img/bc-the_black_widow.jpg"/>
-            <p class="text-center">The Black Widow
-              <br>
-              <em>Daniel Silva</em>
-            </p>
-          </article>
-          <article class="col-md-3">
-            <img src="img/bc-the_jack_reacher_thriller.jpg"/>
-            <p class="text-center">Night School: A Jack Reacher Novel
-              <br>
-              <em>Lee Child</em>
-            </p>
-          </article>
-          <article class="col-md-3">
-            <img src="img/bc-the_last_mile.jpg"/>
-            <p class="text-center">The Last Mile
-              <br>
-              <em>David Baldacci</em>
-            </p>
-          </article>
-          <article class="col-md-3">
-            <img src="img/bc-the_whistler.jpeg"/>
-            <p class="text-center">The Whistler
-              <br>
-              <em>John Grisham</em>
-            </p>
-          </article>
-          <article class="col-md-3">
-            <img src="img/bc-truly_madly_guilty.jpg"/>
-            <p class="text-center">Truly Madly Guilty
-              <br>
-              <em>Liane Moriarty</em>
-            </p>
-          </article>
-          <article class="col-md-3">
-            <img src="img/bc-when_breath_becomes_air.jpg"/>
-            <p class="text-center">When Breath Becomes Air
-              <br>
-              <em>Paul Kalanithi</em>
-            </p>
-          </article>
+          <h1 class="h1 text-center">Top Books</h1>
+          <!-- Control buttons -->
+          <div id="myBtnContainer" class="col-md-12">
+            <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+            <button class="btn" onclick="filterSelection('fantasy')"> Fantasy</button>
+            <button class="btn" onclick="filterSelection('autoBiograpghy')"> Auto-Biography</button>
+            <button class="btn" onclick="filterSelection('crimeDrama')"> Crime-Drama</button>
+            <button class="btn" onclick="filterSelection('history')"> History</button>
+            <button class="btn" onclick="filterSelection('fiction')"> Fiction</button>
+            <button class="btn" onclick="filterSelection('childFiction')"> Children's Fiction</button>
+            <button class="btn" onclick="filterSelection('nonFiction')"> Non-Fiction</button>
+            <button class="btn" onclick="filterSelection('thriller')"> Thriller</button>
+            <button class="btn" onclick="filterSelection('play')"> Play</button>
+            <button class="btn" onclick="filterSelection('memoir')"> Memoir</button>
+            <button class="btn" onclick="filterSelection('novel')"> Novel</button>
+            <button class="btn" onclick="filterSelection('critique')"> Critique</button>
+          </div>
+          <div id="book-shelf" class="row row-eq-height">
+            <article class="col-md-3 col-sm-6 filterDiv crimeDrama thriller novel">
+              <img src="img/bc-15th_affair.jpg"/>
+              <p class="text-center">The 15th Affair: The New Women's Murder Club Novel
+                <br>
+                <em>James Patterson</em>
+              </p>
+            </article>
+            <article class="col-md-3 col-sm-6 filterDiv fiction novel">
+              <img src="img/bc-before_the_fall.jpg"/>
+              <p class="text-center">Before the Fall
+                <br>
+                <em>Noah Hawley</em>
+              </p>
+            </article>
+            <article class="col-md-3 col-sm-6 filterDiv childFiction novel">
+              <img src="img/bc-diary_of_a_wimpy_kid.jpg"/>
+              <p class="text-center">Diary of a Wimpy Kid: Double Down
+                <br>
+                <em>Jeff Kinney</em>
+              </p>
+            </article>
+            <article class="col-md-3 col-sm-6 filterDiv childFiction fantasy play">
+              <img src="img/bc-harry_potter.jpg"/>
+              <p class="text-center">Harry Potter and the Cursed Child, Parts 1 & 2
+                <br>
+                <em>J.K. Rowling</em>
+              </p>
+            </article>
+            <article class="col-md-3 col-sm-6 filterDiv nonFiction critique">
+              <img src="img/bc-hillbilly_elegy.jpg"/>
+              <p class="text-center">Hillbilly Elegy: A Memoir of a Family and Culture in Crisis
+                <br>
+                <em>J.D. Vance</em>
+              </p>
+            </article>
+            <article class="col-md-3 col-sm-6 filterDiv history critique">
+              <img src="img/bc-killing_the_rising_sun.jpg"/>
+              <p class="text-center">Killing the Rising Sun: How America Vanquished World War II Japan
+                <br>
+                <em>Bill O'Reilly</em>
+              </p>
+            </article>
+            <article class="col-md-3 col-sm-6 filterDiv thriller novel">
+              <img src="img/bc-the_black_widow.jpg"/>
+              <p class="text-center">The Black Widow
+                <br>
+                <em>Daniel Silva</em>
+              </p>
+            </article>
+            <article class="col-md-3 col-sm-6 filterDiv fiction novel">
+              <img src="img/bc-the_jack_reacher_thriller.jpg"/>
+              <p class="text-center">Night School: A Jack Reacher Novel
+                <br>
+                <em>Lee Child</em>
+              </p>
+            </article>
+            <article class="col-md-3 col-sm-6 filterDiv crimeDrama novel">
+              <img src="img/bc-the_last_mile.jpg"/>
+              <p class="text-center">The Last Mile
+                <br>
+                <em>David Baldacci</em>
+              </p>
+            </article>
+            <article class="col-md-3 col-sm-6 filterDiv crimeDrama novel">
+              <img src="img/bc-the_whistler.jpeg"/>
+              <p class="text-center">The Whistler
+                <br>
+                <em>John Grisham</em>
+              </p>
+            </article>
+            <article class="col-md-3 col-sm-6 filterDiv fiction novel">
+              <img src="img/bc-truly_madly_guilty.jpg"/>
+              <p class="text-center">Truly Madly Guilty
+                <br>
+                <em>Liane Moriarty</em>
+              </p>
+            </article>
+            <article class="col-md-3 col-sm-6 filterDiv autoBiograpghy memoir">
+              <img src="img/bc-when_breath_becomes_air.jpg"/>
+              <p class="text-center">When Breath Becomes Air
+                <br>
+                <em>Paul Kalanithi</em>
+              </p>
+            </article>
+          </div>
         </div>
       </div>
     </div>
   </section>
   <footer>
   </footer>
+  <script type="text/javascript" src="js/main.js">
+  </script>
 </body>
 </html>

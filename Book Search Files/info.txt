@@ -62,3 +62,61 @@ Type: Novel}
 Noah Hawley,
 Genre: Fiction
 Type: Novel}
+
+//////////New Books////////////
+
+{
+Fool Me Once,
+Harlan Coben
+Genre: Crime-Drama
+Type: Novel
+}
+
+{
+Crisis of Character
+Gary. J Byrne
+Genre: Auto-Biography
+Type: Memoir
+}
+
+{
+The Wrong Side of Goodbye
+Michael Connelly
+Genre: Crime-Drama
+Type: Novel
+}
+
+{
+The Magnolia Story
+Chip and Joanna Gaines
+Genre: Biography, Romance
+Type: Memoir
+}
+
+{
+The Nest
+Cynthia D'Aprix Sweeney
+Genre: Fiction
+Type: Novel
+}
+
+{
+One With You: A Crossfire Novel
+Sylvia Day
+Genre: Romance
+Type: Novel
+}
+
+{
+The Obsession
+Nora Roberts
+Genre: Crime-Drama
+Type: Novel
+}
+
+{
+Everything We Keep
+Kerry Lonsdale
+Genre: Mystery
+Type: Novel
+}
