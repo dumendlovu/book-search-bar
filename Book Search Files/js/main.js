@@ -1,6 +1,8 @@
 filterSelection("all")
 function filterSelection(c) {
+  //Intializing variables
   var x, i;
+  //searches the page for the divs with the filterDiv class
   x = document.getElementsByClassName("filterDiv");
   if (c == "all") c = "";
   // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
@@ -41,7 +43,7 @@ var btns = btnContainer.getElementsByClassName("btn");
 for (var i = 0; i < btns.length; i++) {
   btns[i].addEventListener("click", function() {
     var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
+    current[0].className = current[0].className.replace("active", " ");
     this.className += " active";
   });
 }

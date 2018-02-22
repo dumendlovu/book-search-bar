@@ -10,13 +10,6 @@
   <link rel="stylesheet" href="lib/Bootstrap/bootstrap-4/css/bootstrap.css">
 </head>
 <body>
-  <header>
-    <div class="topnav">
-      <a class="active" href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
-    </div>
-  </header>
   <section id="main">
     <div class="container-fuild">
       <div class="row">
@@ -26,6 +19,7 @@
           <div id="myBtnContainer" class="col-md-12">
             <button class="btn active" onclick="filterSelection('all')"> Show all</button>
             <button class="btn" onclick="filterSelection('fantasy')"> Fantasy</button>
+            <button class="btn" onclick="filterSelection('romance')"> Romance</button>
             <button class="btn" onclick="filterSelection('autoBiograpghy')"> Auto-Biography</button>
             <button class="btn" onclick="filterSelection('crimeDrama')"> Crime-Drama</button>
             <button class="btn" onclick="filterSelection('history')"> History</button>
@@ -33,6 +27,7 @@
             <button class="btn" onclick="filterSelection('childFiction')"> Children's Fiction</button>
             <button class="btn" onclick="filterSelection('nonFiction')"> Non-Fiction</button>
             <button class="btn" onclick="filterSelection('thriller')"> Thriller</button>
+            <button class="btn" onclick="filterSelection('mystery')"> Mystery</button>
             <button class="btn" onclick="filterSelection('play')"> Play</button>
             <button class="btn" onclick="filterSelection('memoir')"> Memoir</button>
             <button class="btn" onclick="filterSelection('novel')"> Novel</button>
@@ -123,6 +118,71 @@
                 <em>Paul Kalanithi</em>
               </p>
             </article>
+
+            <article class="col-md-3 col-sm-6 filterDiv crimeDrama thriller novel">
+              <img src="img/bc-fool_me_once.jpg"/>
+              <p class="text-center">Fool Me Once
+                <br>
+                <em>Harlan Coben</em>
+              </p>
+            </article>
+
+            <article class="col-md-3 col-sm-6 filterDiv autoBiograpghy history memoir">
+              <img src="img/bc-crisis_of_character.jpg"/>
+              <p class="text-center">Crisis of Character
+                <br>
+                <em>Gary. J Byrne</em>
+              </p>
+            </article>
+
+            <article class="col-md-3 col-sm-6 filterDiv crimeDrama thriller novel">
+              <img src="img/bc-wrong_side_of_goodbye.jpg"/>
+              <p class="text-center">The Wrong Side of Goodbye
+                <br>
+                <em>Michael Connelly</em>
+              </p>
+            </article>
+
+            <article class="col-md-3 col-sm-6 filterDiv autoBiograpghy romance memoir ">
+              <img src="img/bc-magnolia_story.jpg"/>
+              <p class="text-center">The Magnolia Story
+                <br>
+                <em>Chip and Joanna Gaines</em>
+              </p>
+            </article>
+
+            <article class="col-md-3 col-sm-6 filterDiv fiction novel">
+              <img src="img/bc-the_nest.jpg"/>
+              <p class="text-center">The Nest
+                <br>
+                <em>Cynthia D'Aprix Sweeney</em>
+              </p>
+            </article>
+
+            <article class="col-md-3 col-sm-6 filterDiv romance fiction novel">
+              <img src="img/bc-one_with_you.jpg"/>
+              <p class="text-center">One With You: A Crossfire Novel
+                <br>
+                <em>Sylvia Day</em>
+              </p>
+            </article>
+
+            <article class="col-md-3 col-sm-6 filterDiv crimeDrama thriller novel">
+              <img src="img/bc-the_obsession.jpg"/>
+              <p class="text-center">The Obsession
+                <br>
+                <em>Nora Roberts</em>
+              </p>
+            </article>
+
+            <article class="col-md-3 col-sm-6 filterDiv mystery novel">
+              <img src="img/bc-everything_we_keep.png"/>
+              <p class="text-center">Everything We Keep
+                <br>
+                <em>Kerry Lonsdale</em>
+              </p>
+            </article>
+
           </div>
         </div>
       </div>
