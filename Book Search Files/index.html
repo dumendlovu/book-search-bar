@@ -15,7 +15,7 @@
       <div class="row">
         <div class="col-md-12">
           <h1 class="h1 text-center">Top Books</h1>
-          <!-- Control buttons -->
+          <!-- Filter buttons -->
           <div id="myBtnContainer" class="col-md-12">
             <button class="btn active" onclick="filterSelection('all')"> Show all</button>
             <button class="btn" onclick="filterSelection('fantasy')"> Fantasy</button>
@@ -32,6 +32,26 @@
             <button class="btn" onclick="filterSelection('memoir')"> Memoir</button>
             <button class="btn" onclick="filterSelection('novel')"> Novel</button>
             <button class="btn" onclick="filterSelection('critique')"> Critique</button>
+          </div>
+          <!--Dropdown filter-->
+          <div class="dropdown">
+            <button class="dropbtn">Dropdown</button>
+            <div class="dropdown-content">
+              <a onclick="filterSelection('all')"> Show all</a>
+              <a onclick="filterSelection('fantasy')"> Fantasy</a>
+              <a onclick="filterSelection('romance')"> Romance</a>
+              <a onclick="filterSelection('autoBiograpghy')"> Auto-Biography</a>
+              <a onclick="filterSelection('crimeDrama')"> Crime-Drama</a>
+              <a onclick="filterSelection('history')"> History</a>
+              <a onclick="filterSelection('childFiction')"> Children's Fiction</a>
+              <a onclick="filterSelection('nonFiction')"> Non-Fiction</a>
+              <a onclick="filterSelection('thriller')"> Thriller</a>
+              <a onclick="filterSelection('mystery')"> Mystery</a>
+              <a onclick="filterSelection('play')"> Play</a>
+              <a onclick="filterSelection('memoir')"> Memoir</a>
+              <a onclick="filterSelection('novel')"> Novel</a>
+              <a onclick="filterSelection('critique')"> Critique</a>
+            </div>
           </div>
           <div id="book-shelf" class="row row-eq-height">
             <article class="col-md-3 col-sm-6 filterDiv crimeDrama thriller novel">
@@ -118,7 +138,6 @@
                 <em>Paul Kalanithi</em>
               </p>
             </article>
-
             <article class="col-md-3 col-sm-6 filterDiv crimeDrama thriller novel">
               <img src="img/bc-fool_me_once.jpg"/>
               <p class="text-center">Fool Me Once
@@ -126,7 +145,6 @@
                 <em>Harlan Coben</em>
               </p>
             </article>
-
             <article class="col-md-3 col-sm-6 filterDiv autoBiograpghy history memoir">
               <img src="img/bc-crisis_of_character.jpg"/>
               <p class="text-center">Crisis of Character
@@ -134,7 +152,6 @@
                 <em>Gary. J Byrne</em>
               </p>
             </article>
-
             <article class="col-md-3 col-sm-6 filterDiv crimeDrama thriller novel">
               <img src="img/bc-wrong_side_of_goodbye.jpg"/>
               <p class="text-center">The Wrong Side of Goodbye
@@ -142,7 +159,6 @@
                 <em>Michael Connelly</em>
               </p>
             </article>
-
             <article class="col-md-3 col-sm-6 filterDiv autoBiograpghy romance memoir ">
               <img src="img/bc-magnolia_story.jpg"/>
               <p class="text-center">The Magnolia Story
@@ -150,7 +166,6 @@
                 <em>Chip and Joanna Gaines</em>
               </p>
             </article>
-
             <article class="col-md-3 col-sm-6 filterDiv fiction novel">
               <img src="img/bc-the_nest.jpg"/>
               <p class="text-center">The Nest
@@ -158,7 +173,6 @@
                 <em>Cynthia D'Aprix Sweeney</em>
               </p>
             </article>
-
             <article class="col-md-3 col-sm-6 filterDiv romance fiction novel">
               <img src="img/bc-one_with_you.jpg"/>
               <p class="text-center">One With You: A Crossfire Novel
@@ -166,7 +180,6 @@
                 <em>Sylvia Day</em>
               </p>
             </article>
-
             <article class="col-md-3 col-sm-6 filterDiv crimeDrama thriller novel">
               <img src="img/bc-the_obsession.jpg"/>
               <p class="text-center">The Obsession
@@ -174,7 +187,6 @@
                 <em>Nora Roberts</em>
               </p>
             </article>
-
             <article class="col-md-3 col-sm-6 filterDiv mystery novel">
               <img src="img/bc-everything_we_keep.png"/>
               <p class="text-center">Everything We Keep
@@ -182,7 +194,6 @@
                 <em>Kerry Lonsdale</em>
               </p>
             </article>
-
           </div>
         </div>
       </div>
