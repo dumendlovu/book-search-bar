@@ -103,6 +103,15 @@ h1{
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
+footer{
+  background-color: black;
+  height: 100px;
+  padding: 20px;
+}
+footer p{
+  color: white;
+  margin-top: 10px;
+}
 /*MEDIA QUERIES*/
 @media screen and (max-width: 790px) {
   #myBtnContainer{
