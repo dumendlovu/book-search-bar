@@ -1,46 +1,64 @@
-* {box-sizing: border-box;}
+/* line 1, /Users/dumezwenindlovu/_Web_Dev_Projects/book-search-bar/Book Search Files/sass/main.scss */
+* {
+  box-sizing: border-box;
+}
 
+/* line 3, /Users/dumezwenindlovu/_Web_Dev_Projects/book-search-bar/Book Search Files/sass/main.scss */
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
 }
-h1{
+
+/* line 6, /Users/dumezwenindlovu/_Web_Dev_Projects/book-search-bar/Book Search Files/sass/main.scss */
+body h1 {
   margin: 20px;
 }
-#book-shelf{
+
+/* line 9, /Users/dumezwenindlovu/_Web_Dev_Projects/book-search-bar/Book Search Files/sass/main.scss */
+body #book-shelf {
+  margin-bottom: 100px;
   padding: 20px;
 }
-#main article{
-  float:left;
+
+/* line 12, /Users/dumezwenindlovu/_Web_Dev_Projects/book-search-bar/Book Search Files/sass/main.scss */
+body #book-shelf article {
+  float: left;
 }
-#main article img {
+
+/* line 15, /Users/dumezwenindlovu/_Web_Dev_Projects/book-search-bar/Book Search Files/sass/main.scss */
+body #book-shelf img {
   border: solid black 5px;
   height: auto;
   overflow: auto;
-  width:100%;
+  width: 100%;
 }
-#main article p{
+
+/* line 21, /Users/dumezwenindlovu/_Web_Dev_Projects/book-search-bar/Book Search Files/sass/main.scss */
+body #book-shelf p {
   padding: 10px, 20px, 0px, 20px;
 }
 
-#main article .book-text{
-
+/* line 28, /Users/dumezwenindlovu/_Web_Dev_Projects/book-search-bar/Book Search Files/sass/main.scss */
+body #myBtnContainer {
+  margin-bottom: auto;
+  margin-top: auto;
+  text-align: center;
 }
 
-#myBtnContainer{
-  margin-bottom:auto;
-  margin-top:auto;
-  text-align:center;
+/* line 34, /Users/dumezwenindlovu/_Web_Dev_Projects/book-search-bar/Book Search Files/sass/main.scss */
+.filterDiv {
+  display: none;
+  /* Hidden by default */
 }
-.filterDiv{
-    display: none; /* Hidden by default */
-}
+
 /* The "show" class is added to the filtered elements */
+/* line 38, /Users/dumezwenindlovu/_Web_Dev_Projects/book-search-bar/Book Search Files/sass/main.scss */
 .show {
-    display: block;
+  display: block;
 }
 
 /* Style the buttons */
+/* line 42, /Users/dumezwenindlovu/_Web_Dev_Projects/book-search-bar/Book Search Files/sass/main.scss */
 .btn {
   background-color: #f1f1f1;
   border: none;
@@ -50,11 +68,13 @@ h1{
 }
 
 /* Add a light grey background on mouse-over */
+/* line 50, /Users/dumezwenindlovu/_Web_Dev_Projects/book-search-bar/Book Search Files/sass/main.scss */
 .btn:hover {
   background-color: #ddd;
 }
 
 /* Add a dark background to the active button */
+/* line 55, /Users/dumezwenindlovu/_Web_Dev_Projects/book-search-bar/Book Search Files/sass/main.scss */
 .btn.active {
   background-color: #666;
   color: white;
@@ -62,6 +82,7 @@ h1{
 
 /*THE Dropdown Menu*/
 /* Dropdown Button */
+/* line 62, /Users/dumezwenindlovu/_Web_Dev_Projects/book-search-bar/Book Search Files/sass/main.scss */
 .dropbtn {
   background-color: #4CAF50;
   border: none;
@@ -71,6 +92,7 @@ h1{
 }
 
 /* The container <div> - needed to position the dropdown content */
+/* line 71, /Users/dumezwenindlovu/_Web_Dev_Projects/book-search-bar/Book Search Files/sass/main.scss */
 .dropdown {
   display: none;
   margin-left: 20px;
@@ -78,9 +100,10 @@ h1{
 }
 
 /* Dropdown Content (Hidden by Default) */
+/* line 78, /Users/dumezwenindlovu/_Web_Dev_Projects/book-search-bar/Book Search Files/sass/main.scss */
 .dropdown-content {
   background-color: #f1f1f1;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   display: none;
   height: 400px;
   min-width: 160px;
@@ -91,6 +114,7 @@ h1{
 }
 
 /* Links inside the dropdown */
+/* line 91, /Users/dumezwenindlovu/_Web_Dev_Projects/book-search-bar/Book Search Files/sass/main.scss */
 .dropdown-content a {
   color: black;
   display: block;
@@ -100,29 +124,49 @@ h1{
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd}
+/* line 100, /Users/dumezwenindlovu/_Web_Dev_Projects/book-search-bar/Book Search Files/sass/main.scss */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
+/* line 103, /Users/dumezwenindlovu/_Web_Dev_Projects/book-search-bar/Book Search Files/sass/main.scss */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+/* line 106, /Users/dumezwenindlovu/_Web_Dev_Projects/book-search-bar/Book Search Files/sass/main.scss */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
 
-footer{
+/* line 108, /Users/dumezwenindlovu/_Web_Dev_Projects/book-search-bar/Book Search Files/sass/main.scss */
+footer {
   background-color: black;
+  bottom: 0;
   height: 100px;
   padding: 20px;
+  position: fixed;
+  width: 100%;
 }
-footer p{
+
+/* line 115, /Users/dumezwenindlovu/_Web_Dev_Projects/book-search-bar/Book Search Files/sass/main.scss */
+footer p {
   color: white;
   margin-top: 10px;
 }
+
 /*MEDIA QUERIES*/
 @media screen and (max-width: 790px) {
-  #myBtnContainer{
+  /* line 122, /Users/dumezwenindlovu/_Web_Dev_Projects/book-search-bar/Book Search Files/sass/main.scss */
+  #myBtnContainer {
     display: none;
   }
-  .dropdown{
+  /* line 125, /Users/dumezwenindlovu/_Web_Dev_Projects/book-search-bar/Book Search Files/sass/main.scss */
+  .dropdown {
     display: inline-block;
   }
 }
+
+/*# sourceMappingURL=../css/main.map */
