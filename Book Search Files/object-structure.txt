@@ -1,0 +1,20 @@
+//HTML
+<article class="col-md-3 col-sm-6 filterDiv crimeDrama thriller novel">
+  <img src="img/bc-15th_affair.jpg"/>
+  <p class="text-center">The 15th Affair: The New Women's Murder Club Novel
+    <br>
+    <span>James Patterson</span>
+  </p>
+  <button class="btn btn-default btn-warning"><a href="https://www.amazon.com/15th-Affair-Womens-Murder-Club/dp/1455585289" target="_blank"><ion-icon name="cash"></ion-icon> Buy on Amazon</a></button>
+  <button class="btn btn-default btn-primary"><a href="https://www.goodreads.com/book/show/25613617-15th-affair" target="https://www.goodreads.com/book/show/25613617-15th-affair"><ion-icon name="alert"></ion-icon> Find it on GoodReads</button>
+</article>
+
+//Object info
+title
+author
+genres
+img-Link
+amazon-Link
+goodReads-Link
+
+//196lines of messy code

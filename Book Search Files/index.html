@@ -6,6 +6,7 @@
   <!--CDNs and Extenal libraries-->
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link href="https://unpkg.com/ionicons@4.4.6/dist/css/ionicons.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
@@ -55,204 +56,7 @@
               <a onclick="filterSelection('critique')"> Critique</a>
             </div>
           </div>
-          <div id="book-shelf" class="row row-eq-height">
-            <article class="col-md-3 col-sm-6 filterDiv crimeDrama thriller novel">
-              <img src="img/bc-15th_affair.jpg"/>
-              <p class="text-center">The 15th Affair: The New Women's Murder Club Novel
-                <br>
-                <span>James Patterson</span>
-              </p>
-              <button class="btn btn-default btn-warning"><a href="https://www.amazon.com/15th-Affair-Womens-Murder-Club/dp/1455585289" target="_blank"><ion-icon name="cash"></ion-icon> Buy on Amazon</a></button>
-              <button class="btn btn-default btn-primary"><a href="https://www.goodreads.com/book/show/25613617-15th-affair" target="https://www.goodreads.com/book/show/25613617-15th-affair"><ion-icon name="alert"></ion-icon> Find it on GoodReads</button>
-            </article>
-            <article class="col-md-3 col-sm-6 filterDiv fiction novel">
-              <aid="inline">
-                <img src="img/bc-before_the_fall.jpg"/>
-              </a>
-              <p class="text-center">Before the Fall
-                <br>
-                <em>Noah Hawley</em>
-              </p>
-            </article>
-            <article class="col-md-3 col-sm-6 filterDiv childFiction novel">
-              <a id="inline" href="#data003">
-                <img src="img/bc-diary_of_a_wimpy_kid.jpg"/>
-              </a>
-              <p id="data003" class="book-text"></p>
-              <p class="text-center">Diary of a Wimpy Kid: Double Down
-                <br>
-                <em>Jeff Kinney</em>
-              </p>
-            </article>
-            <article class="col-md-3 col-sm-6 filterDiv childFiction fantasy play">
-              <a id="inline" href="#data004">
-                <img src="img/bc-harry_potter.jpg"/>
-              </a>
-              <p id="data004" class="book-text"></p>
-              <p class="text-center">Harry Potter and the Cursed Child, Parts 1 & 2
-                <br>
-                <em>J.K. Rowling</em>
-              </p>
-            </article>
-            <article class="col-md-3 col-sm-6 filterDiv nonFiction critique">
-              <a id="inline" href="#data005">
-                <img src="img/bc-hillbilly_elegy.jpg"/>
-              </a>
-              <p id="data005" class="book-text"></p>
-              <p class="text-center">Hillbilly Elegy: A Memoir of a Family and Culture in Crisis
-                <br>
-                <em>J.D. Vance</em>
-              </p>
-            </article>
-            <article class="col-md-3 col-sm-6 filterDiv history critique">
-              <a id="inline" href="#data006">
-                <img src="img/bc-killing_the_rising_sun.jpg"/>
-              </a>
-              <p id="data006" class="book-text"></p>
-              <p class="text-center">Killing the Rising Sun: How America Vanquished World War II Japan
-                <br>
-                <em>Bill O'Reilly</em>
-              </p>
-            </article>
-            <article class="col-md-3 col-sm-6 filterDiv thriller novel">
-              <a id="inline" href="#data007">
-                <img src="img/bc-the_black_widow.jpg"/>
-              </a>
-              <p id="data007" class="book-text"></p>
-              <p class="text-center">The Black Widow
-                <br>
-                <em>Daniel Silva</em>
-              </p>
-            </article>
-            <article class="col-md-3 col-sm-6 filterDiv fiction novel">
-              <a id="inline" href="#data008">
-                <img src="img/bc-the_jack_reacher_thriller.jpg"/>
-              </a>
-              <p id="data008" class="book-text"></p>
-              <p class="text-center">Night School: A Jack Reacher Novel
-                <br>
-                <em>Lee Child</em>
-              </p>
-            </article>
-            <article class="col-md-3 col-sm-6 filterDiv crimeDrama novel">
-              <a id="inline" href="#data009">
-                <img src="img/bc-the_last_mile.jpg"/>
-              </a>
-              <p id="data009" class="book-text"></p>
-              <p class="text-center">The Last Mile
-                <br>
-                <em>David Baldacci</em>
-              </p>
-            </article>
-            <article class="col-md-3 col-sm-6 filterDiv crimeDrama novel">
-              <a id="inline" href="#data010">
-                <img src="img/bc-the_whistler.jpeg"/>
-              </a>
-              <p id="data010" class="book-text"></p>
-              <p class="text-center">The Whistler
-                <br>
-                <em>John Grisham</em>
-              </p>
-            </article>
-            <article class="col-md-3 col-sm-6 filterDiv fiction novel">
-              <a id="inline" href="#data011">
-                <img src="img/bc-truly_madly_guilty.jpg"/>
-              </a>
-              <p id="data011" class="book-text"></p>
-              <p class="text-center">Truly Madly Guilty
-                <br>
-                <em>Liane Moriarty</em>
-              </p>
-            </article>
-            <article class="col-md-3 col-sm-6 filterDiv autoBiograpghy memoir">
-              <a id="inline" href="#data012">
-                <img src="img/bc-when_breath_becomes_air.jpg"/>
-              </a>
-              <p id="data012" class="book-text"></p>
-              <p class="text-center">When Breath Becomes Air
-                <br>
-                <em>Paul Kalanithi</em>
-              </p>
-            </article>
-            <article class="col-md-3 col-sm-6 filterDiv crimeDrama thriller novel">
-              <a id="inline" href="#data013">
-                <img src="img/bc-fool_me_once.jpg"/>
-              </a>
-              <p id="data013" class="book-text"></p>
-              <p class="text-center">Fool Me Once
-                <br>
-                <em>Harlan Coben</em>
-              </p>
-            </article>
-            <article class="col-md-3 col-sm-6 filterDiv autoBiograpghy history memoir">
-              <a id="inline" href="#data014">
-                <img src="img/bc-crisis_of_character.jpg"/>
-              </a>
-              <p id="data014" class="book-text"></p>
-              <p class="text-center">Crisis of Character
-                <br>
-                <em>Gary. J Byrne</em>
-              </p>
-            </article>
-            <article class="col-md-3 col-sm-6 filterDiv crimeDrama thriller novel">
-              <a id="inline" href="#data015">
-                <img src="img/bc-wrong_side_of_goodbye.jpg"/>
-              </a>
-              <p id="data015" class="book-text"></p>
-              <p class="text-center">The Wrong Side of Goodbye
-                <br>
-                <em>Michael Connelly</em>
-              </p>
-            </article>
-            <article class="col-md-3 col-sm-6 filterDiv autoBiograpghy romance memoir ">
-              <a id="inline" href="#data016">
-                <img src="img/bc-magnolia_story.jpg"/>
-              </a>
-              <p id="data016" class="book-text"></p>
-              <p class="text-center">The Magnolia Story
-                <br>
-                <em>Chip and Joanna Gaines</em>
-              </p>
-            </article>
-            <article class="col-md-3 col-sm-6 filterDiv fiction novel">
-              <a id="inline" href="#data017">
-                <img src="img/bc-the_nest.jpg"/>
-              </a>
-              <p id="data017" class="book-text"></p>
-              <p class="text-center">The Nest
-                <br>
-                <em>Cynthia D'Aprix Sweeney</em>
-              </p>
-            </article>
-            <article class="col-md-3 col-sm-6 filterDiv romance fiction novel">
-              <a id="inline" href="#data018">
-                <img src="img/bc-one_with_you.jpg"/>
-              </a>
-              <p id="data018" class="book-text"></p>
-              <p class="text-center">One With You: A Crossfire Novel
-                <br>
-                <em>Sylvia Day</em>
-              </p>
-            </article>
-            <article class="col-md-3 col-sm-6 filterDiv crimeDrama thriller novel">
-              <a id="inline" href="#data019">
-                <img src="img/bc-the_obsession.jpg"/>
-              </a>
-              <p id="data019" class="book-text"></p>
-              <p class="text-center">The Obsession
-                <br>
-                <em>Nora Roberts</em>
-              </p>
-            </article>
-            <article class="col-md-3 col-sm-6 filterDiv mystery novel">
-              <a id="inline" href="#data020">
-                <img src="img/bc-everything_we_keep.png"/>
-              </a>
-              <p class="text-center">Everything We Keep
-                <br>
-                <em>Kerry Lonsdale</em>
-              </p>
-            </article>
+          <div id="book-shelf" class="row row-eq-height" v-html="bookTemplate">
           </div>
         </div>
       </div>
@@ -260,11 +64,11 @@
   </section>
   <footer>
     <p class="text-center">
-      This code has been add to <a href="https://codepen.io/dumendlovu/pen/WMaJpM" target="_blank">CodePen</a>
+      Previous code has been add to <a href="https://codepen.io/dumendlovu/pen/WMaJpM" target="_blank">CodePen</a>
     </p>
   </footer>
   <script src="https://unpkg.com/ionicons@4.4.6/dist/ionicons.js"></script>
-  <script type="text/javascript" src="js/main.js">
-  </script>
+  <script type="text/javascript" src="js/app.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
