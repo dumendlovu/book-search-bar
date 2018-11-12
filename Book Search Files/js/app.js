@@ -137,6 +137,30 @@ var shelf = new Vue({
         imgLink:'http://res.cloudinary.com/dtj4lxtyr/image/upload/v1519649188/bc-the_nest_dp5xhm.jpg',
         amazonLink:'https://www.amazon.com/Nest-Cynthia-DAprix-Sweeney/dp/0062414224',
         goodReadsLink:'https://www.goodreads.com/book/show/25781157-the-nest'
+      },
+      {
+        title:"One With You: A Crossfire Novel ",
+        author:"Sylvia Day",
+        genres:'romance fiction novel',
+        imgLink:'http://res.cloudinary.com/dtj4lxtyr/image/upload/v1519649185/bc-one_with_you_qurgwu.jpg',
+        amazonLink:'https://www.amazon.com/One-You-Crossfire-Novel-Book-ebook/dp/B0183KJZE0',
+        goodReadsLink:'https://www.goodreads.com/book/show/17876897-one-with-you'
+      },
+      {
+        title:"The Obsession ",
+        author:"Nora Roberts",
+        genres:'crimeDrama thriller novel',
+        imgLink:'http://res.cloudinary.com/dtj4lxtyr/image/upload/v1519649174/bc-the_obsession_wbnqtf.jpg',
+        amazonLink:'https://www.amazon.com/Obsession-Nora-Roberts/dp/110198760X',
+        goodReadsLink:'https://www.goodreads.com/book/show/26236956-the-obsession'
+      },
+      {
+        title:"Everything We Keep",
+        author:"Kerry Lonsdale",
+        genres:'mystery novel',
+        imgLink:'http://res.cloudinary.com/dtj4lxtyr/image/upload/v1519649212/bc-everything_we_keep_cid3l9.png',
+        amazonLink:'https://www.amazon.com/Everything-We-Keep-Kerry-Lonsdale/dp/1503935310',
+        goodReadsLink:'https://www.goodreads.com/book/show/29639736-everything-we-keep'
       }
     ],
     bookTemplate: ''
