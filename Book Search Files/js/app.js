@@ -171,7 +171,7 @@ var shelf = new Vue({
       var newHTML = '';
 
       for(var i = 0; i < list.length; i++){
-        newHTML = newHTML + '<article class="col-md-3 col-sm-6 filterDiv '+list[i].genres+'"><img src="'+list[i].imgLink+'" alt="'+list[i].title+'"/><p class="text-center">'+list[i].title+'<br><span>'+list[i].author+'</span></p><button class="btn btn-default btn-info"><a href="'+list[i].amazonLink+'" target="_blank"><ion-icon name="cash"></ion-icon> Buy on Amazon</a></button><button class="btn btn-default btn-secondary"><a href="'+list[i].goodReadsLink+'" target="_blank"><ion-icon name="alert"></ion-icon> Find it on GoodReads</a></button></article>';
+        newHTML = newHTML + '<article class="col-md-3 col-sm-6 filterDiv '+list[i].genres+'"><img src="'+list[i].imgLink+'" alt="'+list[i].title+'"/><p class="text-center">'+list[i].title+'<br><span>'+list[i].author+'</span></p><button class="btn btn-default btn-info"><a href="'+list[i].amazonLink+'" target="_blank"><ion-icon name="cart"></ion-icon> Buy on Amazon</a></button><button class="btn btn-default btn-secondary"><a href="'+list[i].goodReadsLink+'" target="_blank"><ion-icon name="alert"></ion-icon> Find it on GoodReads</a></button></article>';
       }
       this.bookTemplate = newHTML;
       //console.log(newHTML);
